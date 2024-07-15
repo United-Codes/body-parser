@@ -20,7 +20,7 @@
     "on-finished": "2.4.1",
     "qs": "6.11.0",
     "raw-body": "2.5.2",
-    "big-json": "git+https://github.com/United-Codes/big-json.git",
+    "big-json": "github:United-Codes//big-json.git",
     "type-is": "~1.6.18",
     "unpipe": "1.0.0"
   },
