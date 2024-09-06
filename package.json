@@ -9,6 +9,7 @@
   "license": "MIT",
   "repository": "expressjs/body-parser",
   "dependencies": {
+    "big-json": "github:United-Codes/big-json.git",
     "bytes": "3.1.2",
     "content-type": "~1.0.5",
     "debug": "2.6.9",
@@ -16,11 +17,10 @@
     "destroy": "1.2.0",
     "http-errors": "2.0.0",
     "iconv-lite": "0.4.24",
-    "json-bigint": "^1.0.0",
+    "json-bigint": "github:United-Codes/json-bigint",
     "on-finished": "2.4.1",
     "qs": "6.11.0",
     "raw-body": "2.5.2",
-    "big-json": "github:United-Codes/big-json.git",
     "type-is": "~1.6.18",
     "unpipe": "1.0.0"
   },
