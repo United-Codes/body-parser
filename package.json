@@ -1,7 +1,7 @@
 {
   "name": "body-parser",
   "description": "Node.js body parsing middleware",
-  "version": "1.20.2",
+  "version": "1.20.9",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
@@ -10,19 +10,19 @@
   "repository": "expressjs/body-parser",
   "dependencies": {
     "big-json": "github:United-Codes/big-json.git",
-    "bytes": "3.1.2",
+    "bytes": "~3.1.2",
     "content-type": "~1.0.5",
     "debug": "2.6.9",
     "depd": "2.0.0",
-    "destroy": "1.2.0",
-    "http-errors": "2.0.0",
-    "iconv-lite": "0.4.24",
+    "destroy": "~1.2.0",
+    "http-errors": "~2.0.1",
+    "iconv-lite": "~0.4.24",
     "json-bigint": "github:United-Codes/json-bigint",
-    "on-finished": "2.4.1",
-    "qs": "6.11.0",
-    "raw-body": "2.5.2",
+    "on-finished": "~2.4.1",
+    "qs": "~6.16.0",
+    "raw-body": "~2.5.3",
     "type-is": "~1.6.18",
-    "unpipe": "1.0.0"
+    "unpipe": "~1.0.0"
   },
   "devDependencies": {
     "eslint": "8.34.0",
@@ -42,7 +42,6 @@
     "lib/",
     "LICENSE",
     "HISTORY.md",
-    "SECURITY.md",
     "index.js"
   ],
   "engines": {
